@@ -1,0 +1,30 @@
+{
+  "name": "beansplanbot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for RBTV Sendeplan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keyes/beansplanbot.git"
+  },
+  "keywords": [
+    "rbtv",
+    "telegram",
+    "bot",
+    "nodejs"
+  ],
+  "author": "Julian Kern <mail@juliankern.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Keyes/beansplanbot/issues"
+  },
+  "homepage": "https://github.com/Keyes/beansplanbot#readme",
+  "dependencies": {
+    "date-fns": "^2.19.0",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.51.0"
+  }
+}
